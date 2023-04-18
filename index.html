@@ -49,24 +49,72 @@
       <div class="content__skills_box">
         <h2 class="content__skills_box-title">Мои навыки</h2>
         <div class="content__skills_box_skill">
-          <h3 class="content__skills_box_skill-name"></h3>
-          <progress></progress>
+          <h3 class="content__skills_box_skill-name">Adobe Photoshop</h3>
+          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78,5"></progress>
         </div>
         <div class="content__skills_box_skill">
-          <h3 class="content__skills_box_skill-name"></h3>
-          <progress></progress>
+          <h3 class="content__skills_box_skill-name">Adobe Photoshop</h3>
+          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78,5"></progress>
         </div>
         <div class="content__skills_box_skill">
-          <h3 class="content__skills_box_skill-name"></h3>
-          <progress></progress>
+          <h3 class="content__skills_box_skill-name">Adobe Photoshop</h3>
+          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78,5"></progress>
         </div>  
       </div>
       <img src="./Images/Foto-avatar.jpg" alt="Фото-аватар" class="content__skills-avatar">  
     </div>
-    <section></section>
+    <section class="videoblock">
+      <div class="videoblock__container">
+        <div class="videoblock__container_textblock">
+          <h2 class="videoblock__container_textblock-title">Как я работаю</h2>
+          <p class="videoblock__container_textblock-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
+        <div class="videoblock__container_video">
+          <img src="./Images/preview.jpg" alt="Превью видео для воспроизведения - строки кода JavaScript" class="videoblock__container_video-preview">
+          <img src="./Images/play-button.svg" alt="Кнопка воспроизведения" class="videoblock__container_video-button"> 
+        </div>
+      </div>
+    </section>
+    <section class="grid">
+      <img src="./Images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
+      <div class="grid__element grid__element-active">
+        <img src="./Images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element-inblock">
+        <img src="./Images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+      </div> 
+      <img src="./Images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
+      <img src="./Images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
+      <img src="./Images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
+      <img src="./Images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
+      <img src="./Images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
+      <img src="./Images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
+    </section>
+    <section class="feedback">
+      <div class="feedback__commonblock">
+        <div class="feedback__commonblock_textblock">
+          <h2 class="feedback__commonblock_textblock-title">Хотите вебсайт?</h2>
+          <p class="feedback__commonblock_textblock-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
+        <div class="feedback__commonblock_inputblock">
+          <input id="name-input" name="name" class="feedback__commonblock_inputblock-name" type="text" placeholder="Ваше имя"/>
+          <input id="email-input" name="email" class="feedback__commonblock_inputblock-email" type="email" placeholder="Ваш E-mail"/>
+          <textarea id="text-input" name="message" class="feedback__commonblock_inputblock-message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+        </div>
+        <button class="feedback__commonblock-button" type="submit" aria-label="Отправить">Отправить</button>
+      </div>
+    </section>
   </main>
-  <footer>
-
+  <footer class="footer">
+    <div class="footer__textblock">
+      <p class="footer__textblock-name">Иванов Иван</p>
+      <p class="footer__textblock-copyright">(с) 2018. Все права защищены.</p>
+    </div>
+    <div class="footer__logoblock">
+      <img src="./Images/VK-Logo.svg" alt="ВК логотип" class="footer__logoblock-logo">
+      <img src="./Images/VK-Logo.svg" alt="ВК логотип" class="footer__logoblock-logo">
+      <img src="./Images/VK-Logo.svg" alt="ВК логотип" class="footer__logoblock-logo">
+    </div>
   </footer>
 
 </body>
