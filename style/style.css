@@ -1,37 +1,40 @@
 /**fonts**/
 
-@font-face {
+/**@font-face {
   font-family: 'Roboto';
   font-style:  normal;
   font-weight: 400;
-  src: url("./../Vendor/Fonts/Roboto.ttf") format("ttf");
-};
+  src: url("./../vendor/Fonts/Roboto.ttf") format("ttf");
+};**/
 
 
 /**root**/
 
 .root {
-width: 1920px;
+width: 100%;
 margin: 0;
-background: #E5E5E5;
+/**background: #E5E5E5;**/
 color: #000000;
 font-family: 'Roboto', Arial, sans-serif;
-/**text-rendering: optimizeLegibility;
+text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 -webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
--moz-text-size-adjust: 100%;**/
+-moz-text-size-adjust: 100%;
+z-index: 0;
 };
 
 
 /**header**/
 
 .header {
+display: flex;
 height: 700px; /**уб**/
 left: 0px;
-top: -7px;
+top: 0px;
 background: #EEEFF1;
+z-index: 1;
 };
 
 .header__logo {
