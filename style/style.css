@@ -1,48 +1,50 @@
 /**fonts**/
 
-/**@font-face {
-  font-family: 'Roboto';
-  font-style:  normal;
-  font-weight: 400;
-  src: url("./../vendor/Fonts/Roboto.ttf") format("ttf");
-};**/
-
+@font-face {
+    font-family: 'Roboto';
+    src: url('../vendor/Fonts/Roboto-Medium.eot');
+    src: url('../vendor/Fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../vendor/Fonts/Roboto-Medium.woff') format('woff'),
+        url('../vendor/Fonts/Roboto-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+};
 
 /**root**/
 
 .root {
-width: 100%;
-margin: 0;
-/**background: #E5E5E5;**/
-color: #000000;
-font-family: 'Roboto', Arial, sans-serif;
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
--webkit-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--moz-text-size-adjust: 100%;
-z-index: 0;
+  width: 100%;
+  margin: 0;
+  background: #E5E5E5;
+  color: #000000;
+  font-family: 'Roboto', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  z-index: 0;
 };
 
 
 /**header**/
 
 .header {
-display: flex;
-height: 700px; /**уб**/
-left: 0px;
-top: 0px;
-background: #EEEFF1;
-z-index: 1;
+  display: flex;
+  height: 700px; /**уб**/
+  left: 0px;
+  top: 0px;
+  background: #EEEFF1;
+  z-index: 1;
 };
 
 .header__logo {
-display: flex;
-width: 96px;
-height: 60px;
-padding-top: 57px;
-padding-left: 402px;
+  display: flex;
+  width: 96px;
+  height: 60px;
+  padding-top: 57px;
+  padding-left: 402px;
 };
 
 .header__menu {
@@ -85,7 +87,7 @@ padding-left: 402px;
 /**content**/
 
 .content {
-background: #E5E5E5;
+  background: #E5E5E5;
 };
 
 .content__about {
