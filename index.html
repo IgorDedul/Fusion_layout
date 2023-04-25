@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
-<body class="root">-
+<body class="root">
   <header class="header">
     <img src="./images/WD.svg" alt="Логотип - WD" class="header__logo">
     <nav class="header__menu">
-      <a href="#" class="header__menu_link header__menu-link--active">ГЛАВНАЯ</a>
+      <a href="#" class="header__menu_link header__menu-link-active">ГЛАВНАЯ</a>
       <a href="#" class="header__menu_link">ОБ АВТОРЕ</a>
       <a href="#" class="header__menu_link">РАБОТЫ</a>
       <a href="#" class="header__menu_link">ПРОЦЕСС</a>
@@ -38,27 +38,29 @@
         на латинице с начала XVI века.</p>
     </div>
     <div class="content__projects">
-      <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
-      <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
-      <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
-      <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
-      <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
-      <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+      <div class="content__projects_block">
+        <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+        <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+        <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+        <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+        <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+        <img src="./images/numbers__item.svg" alt="Пиктограмма 40+ проектов" class="content__projects_image">
+      </div>
     </div>
     <div class="content__skills">
       <div class="content__skills_box">
         <h2 class="content__skills_box-title">Мои навыки</h2>
         <div class="content__skills_box_skill">
           <h3 class="content__skills_box_skill-name">Adobe Photoshop</h3>
-          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78,5">78,5</progress>
+          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78">78</progress>
         </div>
         <div class="content__skills_box_skill">
           <h3 class="content__skills_box_skill-name">Adobe Photoshop</h3>
-          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78,5">78,5</progress>
+          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78">78</progress>
         </div>
         <div class="content__skills_box_skill">
           <h3 class="content__skills_box_skill-name">Adobe Photoshop</h3>
-          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78,5">78,5</progress>
+          <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78">78</progress>
         </div>  
       </div>
       <img src="./images/Foto-avatar.jpg" alt="Фото-аватар" class="content__skills-avatar">  
@@ -84,21 +86,23 @@
       </div> 
       <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
       <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
-      <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
-      <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
-      <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element">
-      <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
+      <img src="./images/Grid-Image2.jpg" alt="Листы с записями на стене" class="grid__element">
+      <img src="./images/Grid-Image1.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
+      <img src="./images/Grid-Image2.jpg" alt="Листы с записями на стене" class="grid__element">
+      <img src="./images/Grid-Image1.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element">
     </section>
     <section class="feedback">
       <div class="feedback__commonblock">
         <div class="feedback__commonblock_textblock">
-          <h2 class="feedback__commonblock_textblock-title">Хотите вебсайт?</h2>
+          <h2 class="feedback__commonblock_textblock-title">Хотите веб-сайт?</h2>
           <p class="feedback__commonblock_textblock-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
             Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </div>
         <div class="feedback__commonblock_inputblock">
-          <input id="name-input" name="name" class="feedback__commonblock_inputblock-name" type="text" placeholder="Ваше имя"/>
-          <input id="email-input" name="email" class="feedback__commonblock_inputblock-email" type="email" placeholder="Ваш E-mail"/>
+          <div class="feedback__commonblock_inputblock-userinfo">
+            <input id="name-input" name="name" class="feedback__commonblock_inputblock-name" type="text" placeholder="Ваше имя"/>
+            <input id="email-input" name="email" class="feedback__commonblock_inputblock-email" type="email" placeholder="Ваш E-mail"/>
+          </div>
           <textarea id="text-input" name="message" class="feedback__commonblock_inputblock-message" cols="30" rows="10" placeholder="Сообщение"></textarea>
         </div>
         <button class="feedback__commonblock-button" type="submit" aria-label="Отправить">Отправить</button>
