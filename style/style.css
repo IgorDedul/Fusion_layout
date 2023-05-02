@@ -236,7 +236,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 150px;
 }
 
 .content__skills_box {
@@ -633,7 +632,7 @@
     /**videoblock adaptive tab**/
     
     .videoblock__container {
-      margin: 93px 18px;
+      margin: 0 18px;
       width: auto;
     }
 
@@ -784,8 +783,8 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: 82px 18px 0;
+    padding: 82px 0 0 0;
+    margin: 0 18px;
     gap: 0;
   }
   
@@ -816,7 +815,7 @@
   
   
   .videoblock__container {
-    margin: 93px 18px;
+    margin: 0 18px;
     width: auto;
   }
   
@@ -869,10 +868,7 @@
   
   /**feedback adaptive phone**/
   
-  .feedback {
-    margin-top: 28px;
-  }
-  
+
   .feedback__commonblock {
     width: auto;
   }
@@ -920,12 +916,7 @@
   .feedback__commonblock_inputblock-message {
     margin-top: 21px;
   }
-  
-  .feedback__commonblock-button {
-    height: 55px;
-    width: 195px;
-    margin: 50px auto 0;
-  }
+
   
   
   /**footer adaptive phone**/
