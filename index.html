@@ -14,30 +14,36 @@
 <body class="root">
   <header class="header">
     <div class="header__body">
-      <img src="./images/WD.svg" alt="Логотип - WD" class="header__logo">
-      <nav class="header__menu">
-        <a href="#" class="header__menu_link">ГЛАВНАЯ</a>
-        <a href="#" class="header__menu_link">ОБ АВТОРЕ</a>
-        <a href="#" class="header__menu_link">РАБОТЫ</a>
-        <a href="#" class="header__menu_link">ПРОЦЕСС</a>
-        <a href="#" class="header__menu_link">КОНТАКТЫ</a>
-      </nav>
-      <img src="./images/Header_img.png" alt="Упрощённо нарисованный ноутбук с цвето-блочным обозначением кода" class="header__content_image">
-      <div class="header__content_box">
-        <h1 class="header__content_box-title title__fonts">Дизайн и верстка</h1>
-        <p class="header__content_box-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является 
-          стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <button class="button header__content_box-button" type="button" aria-label="Написать мне">Написать мне</button>
+      <div class="header__body_sidebar">
+        <img src="./images/WD.svg" alt="Логотип - WD" class="header__logo">
+        <nav class="header__menu">
+          <a href="#" class="header__menu_link">ГЛАВНАЯ</a>
+          <a href="#" class="header__menu_link">ОБ АВТОРЕ</a>
+          <a href="#" class="header__menu_link">РАБОТЫ</a>
+          <a href="#" class="header__menu_link">ПРОЦЕСС</a>
+          <a href="#" class="header__menu_link">КОНТАКТЫ</a>
+        </nav>
       </div>
+      <div class="header__content"> 
+        <img src="./images/Header_img.png" alt="Упрощённо нарисованный ноутбук с цвето-блочным обозначением кода" class="header__content_image">
+        <div class="header__content_box">
+          <h1 class="header__content_box-title title__fonts">Дизайн и верстка</h1>
+          <p class="header__content_box-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является 
+            стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          <button class="button header__content_box-button" type="button" aria-label="Написать мне">Написать мне</button>
+        </div>
+      </div> 
     </div>  
   </header>
   <main class="content">
-    <div class="content__about">
-      <h2 class="content__about_title title__fonts">Обо мне</h2>
-      <p class="content__about_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
-        на латинице с начала XVI века.</p>
-    </div>
-    <div class="content__projects">
+    <section class="content__general">
+      <div class="content__about">
+        <h2 class="content__about_title title__fonts">Обо мне</h2>
+        <p class="content__about_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
+          на латинице с начала XVI века.</p>
+      </div>
+    </section>
+    <section class="content__projects">
       <div class="content__projects_block">
         <div class = "content__projects_element">
           <img src="./images/project.svg" alt="Пиктограмма" class="content__projects_image">
@@ -82,8 +88,8 @@
           </div>
         </div>     
       </div>
-    </div>
-    <div class="content__skills">
+    </section>
+    <section class="content__skills">
       <div class="content__skills_box">
         <h2 class="content__skills_box-title title__fonts">Мои навыки</h2>
         <div class="content__skills_box_skill">
@@ -99,8 +105,8 @@
           <progress class="content__skills_box_skill-progress" id="skill" max="100" value="78">78</progress>
         </div>  
       </div>
-      <img src="./images/Foto-avatar.jpg" alt="Фото-аватар" class="content__skills-avatar">  
-    </div>
+      <img src="./images/Foto-avatar.jpg" alt="Фото-аватар" class="content__skills-avatar">   
+    </section>  
     <section class="videoblock">
       <div class="videoblock__container">
         <div class="videoblock__container_textblock">
@@ -111,6 +117,7 @@
         <div class="videoblock__container_video">
           <img src="./images/preview.jpg" alt="Превью видео для воспроизведения - строки кода JavaScript" class="videoblock__container_video-preview">
           <img src="./images/play-button.svg" alt="Кнопка воспроизведения" class="videoblock__container_video-button"> 
+          <div class="videoblock__container_video-overlay"></div>
         </div>
       </div>
     </section>
@@ -118,34 +125,42 @@
       <div class="grid__element">
         <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image2.jpg" alt="Рабочий стол с ноутбуками и документами" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
       <div class="grid__element">
         <img src="./images/Grid-Image1.jpg" alt="Листы с записями на стене" class="grid__element_image">
         <img src="./images/view.svg" alt="Пиктограмма глаза" class="grid__element-view">
+        <div class="grid__element_overlay"></div>
       </div> 
     </section>
     <section class="feedback">
@@ -161,8 +176,8 @@
             <input id="email-input" name="email" class="feedback__commonblock_inputblock-email" type="email" placeholder="Ваш E-mail"/>
           </div>
           <textarea id="text-input" name="message" class="feedback__commonblock_inputblock-message" cols="30" rows="10" placeholder="Сообщение"></textarea>
-        </div>
-        <button class="button feedback__commonblock-button" type="submit" aria-label="Отправить">Отправить</button>
+          <button class="button feedback__commonblock-button" type="submit" aria-label="Отправить">Отправить</button>
+        </div> 
       </div>
     </section>
   </main>
